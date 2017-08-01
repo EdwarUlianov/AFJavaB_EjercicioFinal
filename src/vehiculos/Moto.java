@@ -1,4 +1,4 @@
-package af_ef;
+package vehiculos;
 
 
 public class Moto {
