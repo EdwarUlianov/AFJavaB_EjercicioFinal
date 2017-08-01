@@ -55,5 +55,27 @@ public class Persona {
         
     }
     
+    //Método para introducir DNI
+    public void MeterDni(String d){
+        
+        dni = d;
+    
+    }
+    
+    //Método para introducir descripcioón
+    public void MeterDescripcion(String des){
+    
+        descripcion = des;
+    
+    }
+    
+    //Método para mostrar los datos de una persona
+    public void MostrarPersona()
+    {      
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Edad: " + edad);
+        System.out.println("DNI: " + dni);
+        System.out.println("Descripción: " + descripcion);
+    }
     
 }
