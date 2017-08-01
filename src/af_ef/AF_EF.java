@@ -17,6 +17,17 @@ public class AF_EF {
         //Mostramos la cilindrada
         System.out.println("La cilindrada de la moto 1 es de " + m.ObtenerCc());
         
+        //Probamos la clase Bici
+        
+        //Creamos una bici
+        Bici b = new Bici("Paseo", 100.0);
+        
+        //Mostramos el modelo
+        System.out.println("El modelo de la bici 1 es " + b.ObtenerModelo());
+        
+        //Mostramos el precio
+        System.out.println("El precio de la bici 1 es de " + b.ObtenerPrecio());
+        
 
         
     }
