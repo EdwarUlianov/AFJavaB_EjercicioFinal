@@ -48,7 +48,7 @@ public class Persona {
     
     }
     
-    //Mñtodo para obtener el objeto moto
+    //Método para obtener el objeto moto
     public Moto ObtenerMoto(){
     
         return mp;
